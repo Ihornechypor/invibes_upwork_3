@@ -20,15 +20,16 @@
     <!--[if (mso)|(mso 16)]><style type="text/css">a {text-decoration: none;}.windows10-mail-fix{padding-top: 10px!important;}.features-item-first{padding: 10px!important;}</style><![endif]-->
   </head>
   <body>
+    <span class="preheader">{{description}}</span>
     <table class="body">
-      <tr>
-        <td class="center mail-wrapper" align="center" valign="top" >
-            <center>
-                {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened emails are created. --}}
-                {{> body}}
-            </center>
-        </td>
-      </tr>
+        <tr>
+            <td class="center" align="center" valign="top" style="padding-top: 45px;padding-bottom: 45px">
+                <center>
+                    {{> body}}
+
+                </center>
+            </td>
+        </tr>
     </table>
     <!-- prevent Gmail on iOS font size manipulation -->
    <div style="display:none; white-space:nowrap; font:15px courier; line-height:0;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </div>
