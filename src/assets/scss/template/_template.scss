@@ -1,0 +1,31 @@
+td {
+  word-break: keep-all;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -webkit-hyphens: none;
+  hyphens: none;
+}
+
+
+.table-data {
+  td {
+    font-family: sans-serif;
+  }
+}
+
+
+table {
+  center {
+    min-width: 0;
+  }
+}
+
+center {
+  min-width: 0;
+}
+
+
+
+.t-center {
+  text-align: center;
+}

@@ -1,0 +1,27 @@
+.jumbo-table {
+  td {
+    text-align: center;
+  }
+
+  .jumbo-head {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 24px;
+    color: $primary-color;
+    line-height: 1.2;
+    font-family: sans-serif;
+  }
+
+  .jumbo-subhead {
+    color: $primary-color;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 1.2;
+    font-style: italic;
+  }
+
+  .jumbo-text {
+    font-size: 16px;
+    font-weight: 700;
+  }
+}

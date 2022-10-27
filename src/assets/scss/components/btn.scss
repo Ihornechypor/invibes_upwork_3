@@ -1,0 +1,54 @@
+.btn {
+  background-color: $global-font-color;
+  border-radius:6px;
+  color: #ffffff;
+  display:inline-block;
+  font-size: 18px;
+  font-weight:600;
+  line-height:52px;
+  text-align:center;
+  text-decoration:none;
+  -webkit-text-size-adjust:none;
+
+  @media all {
+    &:hover {
+      background-color: lighten(#252525, 10%)!important;
+    }
+  }
+
+  @media only screen and (max-width: $global-breakpoint) {
+    width: 100% !important;
+  }
+}
+
+.btn-v2-table-wrap {
+  background-color: $primary-color;
+  border-collapse: initial!important;
+  border-radius: 8px;
+  td {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    border-radius:8px;
+    border-collapse: initial!important;
+    a {
+      text-align: center;
+    }
+  }
+
+  .btn-v2 {
+    background-color: $primary-color;
+    color: #fff;
+    display:inline-block;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1;
+    padding: 17px 0;
+    text-align:center;
+    text-decoration:none;
+    -webkit-text-size-adjust:none;
+    border-radius:6px;
+    width: 100%;
+  }
+}
+
